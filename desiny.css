@@ -1,0 +1,24 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: black;
+}
+
+
+video{
+    width: 100%;
+
+}
+section .posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+section .posters::-webkit-scrollbar {
+    display: none;
+
+}
